@@ -1,0 +1,50 @@
+{
+    "name": "api-platform-tools/doctrine-tools",
+    "description": "API Platform Tools: Doctrine related tools",
+    "type": "library",
+    "keywords": [
+        "api",
+        "api-platform",
+        "api-platform-tools",
+        "php",
+        "resource",
+        "tools"
+    ],
+    "license": "MIT",
+    "require": {
+        "doctrine/dbal": "*",
+        "doctrine/orm": "*",
+        "symfony/doctrine-bridge": ">=6.3",
+        "symfony/serializer": ">=6.3"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "*",
+        "roave/security-advisories": "dev-latest",
+        "phpunit/phpunit": ">=10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ApiPlatformTools\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        },
+        "thanks": {
+            "name": "api-platform-tools/doctrine-tools",
+            "url": "https://github.com/api-platform-tools/doctrine-tools"
+        }
+    },
+    "funding": [
+        {
+            "type": "issuehunt",
+            "url": "https://issuehunt.io/r/api-platform-tools/doctrine-tools"
+        }
+    ]
+}
