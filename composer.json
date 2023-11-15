@@ -12,6 +12,7 @@
     ],
     "license": "MIT",
     "require": {
+        "php": ">=8.2",
         "doctrine/dbal": "*",
         "doctrine/orm": "*",
         "symfony/doctrine-bridge": ">=6.3",
